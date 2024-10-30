@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component'
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { PaginaInicialComponent } from './componentes/pagina-inicial/pagina-inicial.component';
+import { VisualizarTarefasComponent } from './componentes/visualizar-tarefas/visualizar-tarefas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PaginaInicialComponent } from './componentes/pagina-inicial/pagina-inic
     CabecalhoComponent,
     RodapeComponent,
     InicioComponent,
-    PaginaInicialComponent
+    PaginaInicialComponent,
+    VisualizarTarefasComponent
   ],
   imports: [
     BrowserModule,
